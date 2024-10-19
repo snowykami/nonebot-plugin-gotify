@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:797c76014369cdba3b067832d8058cf51bb19133f129c110fd98139d88127519"
+content_hash = "sha256:43ac5c0e46d84542ff626fb4d9319d39f32b3ee4f91e91d33112c9f15ebceccc"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -529,6 +529,17 @@ dependencies = [
 files = [
     {file = "loguru-0.7.2-py3-none-any.whl", hash = "sha256:003d71e3d3ed35f0f8984898359d65b79e5b21943f78af86aa5491210429b8eb"},
     {file = "loguru-0.7.2.tar.gz", hash = "sha256:e671a53522515f34fd406340ee968cb9ecafbc4b36c679da03c18fd8d0bd51ac"},
+]
+
+[[package]]
+name = "magicoca"
+version = "1.0.5"
+requires_python = ">=3.10"
+summary = "A communication library for Python"
+groups = ["default"]
+files = [
+    {file = "magicoca-1.0.5-py3-none-any.whl", hash = "sha256:e11a88dcd71fdb779ddf646d3071249f198623756ec8b4ddc3b92f65f68570d3"},
+    {file = "magicoca-1.0.5.tar.gz", hash = "sha256:764a53be7cb170b1261d85f1db757cd98c584b8340d0bb3096dc7327266bb259"},
 ]
 
 [[package]]
