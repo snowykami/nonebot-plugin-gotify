@@ -16,3 +16,8 @@ license = {text = "MIT"}
 
 [tool.pdm]
 distribution = false
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "nb-cli>=1.4.2",
+]
