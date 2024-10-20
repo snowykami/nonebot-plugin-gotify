@@ -33,14 +33,14 @@ Push Bot lifecycle and chat messages to [Gotify](https://gotify.net/) in real ti
 <details open>
 <summary>使用 nb-cli 安装(推荐，需先安装`nb-cli`)  Use nb-cli</summary>
 
-    nb plugin install nonebot-plugin-liteyukibot
+    nb plugin install nonebot-plugin-gotify
 
 </details>
 
 <details open>
 <summary>使用 pip 安装 Use pip</summary>
 
-    pip install nonebot-plugin-liteyukibot
+    pip install nonebot-plugin-gotify
 
 </details>
 
@@ -51,25 +51,25 @@ Push Bot lifecycle and chat messages to [Gotify](https://gotify.net/) in real ti
 <details>
 <summary>pip</summary>
 
-    pip install nonebot-plugin-liteyukibot
+    pip install nonebot-plugin-gotify
 
 </details>
 <details>
 <summary>pdm</summary>
 
-    pdm add nonebot-plugin-liteyukibot
+    pdm add nonebot-plugin-gotify
 
 </details>
 <details>
 <summary>poetry</summary>
 
-    poetry add nonebot-plugin-liteyukibot
+    poetry add nonebot-plugin-gotify
 
 </details>
 <details>
 <summary>conda</summary>
 
-    conda install nonebot-plugin-liteyukibot
+    conda install nonebot-plugin-gotify
 
 </details>
 </details>
