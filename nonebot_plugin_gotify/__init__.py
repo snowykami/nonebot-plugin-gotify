@@ -13,6 +13,8 @@ __plugin_meta__ = PluginMetadata(
     name="Gotify",
     description="使用Gotify API发送消息",
     usage="后台服务插件，无需用户交互",
+    homepage="https://github.com/snowykami/nonebot-plugin-gotify",
+    type="application",
 )
 
 # on plugin load
