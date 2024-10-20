@@ -3,7 +3,7 @@ name = "nonebot-plugin-gotify"
 dynamic = ["version"]
 description = "Default template for PDM package"
 authors = [
-    {name = "snowykami", email = "snowykami@outlook.com"},
+    { name = "snowykami", email = "snowykami@outlook.com" },
 ]
 dependencies = [
     "nonebot2>=2.3.3",
@@ -12,7 +12,7 @@ dependencies = [
 ]
 requires-python = ">=3.10"
 readme = "README.md"
-license = {text = "MIT"}
+license = { text = "MIT" }
 
 
 [tool.pdm]
