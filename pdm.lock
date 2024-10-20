@@ -533,13 +533,13 @@ files = [
 
 [[package]]
 name = "magicoca"
-version = "1.0.5"
+version = "1.0.6"
 requires_python = ">=3.10"
 summary = "A communication library for Python"
 groups = ["default"]
 files = [
-    {file = "magicoca-1.0.5-py3-none-any.whl", hash = "sha256:e11a88dcd71fdb779ddf646d3071249f198623756ec8b4ddc3b92f65f68570d3"},
-    {file = "magicoca-1.0.5.tar.gz", hash = "sha256:764a53be7cb170b1261d85f1db757cd98c584b8340d0bb3096dc7327266bb259"},
+    {file = "magicoca-1.0.6-py3-none-any.whl", hash = "sha256:3c62d6c3e87b3b5a13e0fd5b5fb674374355326684ab4421f2ac8a4c5127455e"},
+    {file = "magicoca-1.0.6.tar.gz", hash = "sha256:e32ec57d67e64232dc7681c5095166e6a0ee3d27048d7115aa2b09ce4e7d9ff6"},
 ]
 
 [[package]]
