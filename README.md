@@ -7,9 +7,9 @@
 
 # nonebot-plugin-gotify
 
-_✨ 将NoneBot的通知和讯息推送到个人通知管理器 ✨_
+_✨ 将NoneBot的通知和讯息推送到[Gotify](https://gotify.net/) ✨_
 
-_✨ Push NoneBot's notifications and messages to personal notification manager ✨_
+_✨ Push NoneBot's notifications and messages to [Gotify](https://gotify.net/) ✨_
 
 
 <a href="./LICENSE">
@@ -24,9 +24,9 @@ _✨ Push NoneBot's notifications and messages to personal notification manager 
 
 ## 📖 介绍 Introduction
 
-将Bot生命周期，聊天讯息实时推送到Gotify，实现个人通知管理器
+将Bot生命周期，聊天讯息实时推送到[Gotify](https://gotify.net/)，实现个人通知管理器
 
-Push Bot lifecycle and chat messages to Gotify in real time, and achieve personal notification manager
+Push Bot lifecycle and chat messages to [Gotify](https://gotify.net/) in real time, and achieve personal notification manager
 
 ## 💿 安装 Installation
 
@@ -97,6 +97,12 @@ GOTIFY_TITLE = "{message_type}: {nickname}({user_id})" # 推送系统消息的�
 GOTIFY_MESSAGE = "{message}" # 推送系统消息的内容模板 Content for system messages template
 GOTIFY_INCLUDES = ["message", "notice"] # 包含的消息类型 Includes message types
 ```
+
+目前支持的占位符 Currently supported placeholders:
+- `{message_type}`: 消息类型 Message type
+- `{nickname}`: 昵称 Nickname
+- `{user_id}`: 用户ID User ID
+- `{message}`: 消息内容 Message content
 
 ## ℹ️ 其他 Other
 
