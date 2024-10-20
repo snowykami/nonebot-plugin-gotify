@@ -13,7 +13,6 @@ dependencies = [
 requires-python = ">=3.10"
 readme = "README.md"
 license = { text = "MIT" }
-version = "0.1.0"
 
 [build-system]
 requires = ["pdm-backend"]
