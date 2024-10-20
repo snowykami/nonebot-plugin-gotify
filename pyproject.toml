@@ -18,6 +18,10 @@ license = {text = "MIT"}
 [tool.pdm]
 distribution = true
 
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
 [tool.pdm.version]
 source = "scm"
 tag_filter = "v*"
